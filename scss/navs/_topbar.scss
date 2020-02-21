@@ -164,7 +164,7 @@
           color: $white;
         }
         &:active {
-          color: $white; 
+          color: $white;  
         }
       }
     }
@@ -186,3 +186,21 @@
     }
   }
 }
+
+
+   .dropdown-menu {
+     
+      .social_btn{
+        color:#ccc;
+        font-size: 1rem !important;
+        display: flex;
+        justify-content: flex-start;
+
+         i{
+           margin: 3px;
+         }
+
+      
+      }
+  }  
+
