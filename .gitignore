@@ -1,0 +1,5 @@
+node_modules
+vendor/chart.js/Chart.bundle.js
+vendor/chart.js/Chart.bundle.min.js
+vendor/chart.js/Chart.js
+vendor/chart.js/Chart.min.js
