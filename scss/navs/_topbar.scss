@@ -191,16 +191,25 @@
    .dropdown-menu {
      
       .social_btn{
-        color:#ccc;
         font-size: 1rem !important;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
+        margin: 3px;
+        color: $white;
+     
 
-         i{
-           margin: 3px;
-         }
-
+      .fa-phone-alt{
+        font-size: .8rem;
+      }  
       
+      }
+      &_link{
+       display: flex;
+       align-items: center;
+       color:$gray-900;
+       &:hover{
+         text-decoration: none;
+       }
       }
   }  
 
