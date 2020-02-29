@@ -15,6 +15,12 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
+
+<!--Подключите таблицу стилей--> 
+<link href="https://insuris.ru/w_eosago/w_eosago.css" rel="stylesheet">
+
+
+  
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
@@ -198,8 +204,32 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Оформить Осаго</h1>
+          <div class="row  mb-4">
+
+            <div class="col-sm-12">
+              <h1 class="h3 mb-0 text-gray-800">Оформить Осаго</h1>
+            </div>
+            
+
+
+
+
+            <div class="col-sm-12">
+
+<!--Разместите блок в том месте сайта, где будет отображаться виджет--> 
+
+<div id="w_eosago"></div>
+
+</div>
+
+
+
+
+
+
+
+
+
             
           </div>
 
@@ -256,15 +286,29 @@
   <!-- Core plugin JavaScript-->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+
+<!--Подключите скрипты после библиотеки jQuery-->
+<script type="text/javascript">
+  w_eosago_domain="0"; //Не меняйте этот параметр
+  w_eosago_user_id="55114"; //Не меняйте этот параметр 
+ w_eosago_token="03ab84b37f0249e863fed9f9785d74c1"; //Не меняйте этот параметр
+  w_eosago_color="28467f"; //Цвет формы и вспомогательных кнопок. Можно изменить на любой другой,
+  w_eosago_show_short=1; //Показывать ли краткострок 
+ w_eosago_action_color="e47e27" //Цвет кнопки действия. Расчитать. Можно изменить на любой другой 
+ </script> 
+ <script src="https://insuris.ru/w_eosago/w_eosago_init.js" type="text/javascript"></script> 
+ 
+ <!--Если у вас не подключена библиотека jQuery, вы можете подключить ее вставив код перед скриптом -->
+  <script src="https://insuris.ru/w_eosago/jquery.min.js" type="text/javascript"></script> 
+
+
+
+
+
+
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
 
-  <!-- Page level plugins -->
-  <script src="vendor/chart.js/Chart.min.js"></script>
-
-  <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="js/demo/chart-pie-demo.js"></script>
 
 </body>
 
